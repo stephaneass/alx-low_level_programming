@@ -13,6 +13,7 @@ int main(void)
 	while(sizeof(text) > i)
 	{
 		putchar(text[i]);
+		i++;
 	}
 	return (1);
 }
