@@ -3,7 +3,7 @@
 /**
  * puts - it is use to print text
  * main: use puts fonction
- * Description: usage of puts
+ * description: usage of puts
  * Return: return 0 if everything is okay
  */
 int main(void)
