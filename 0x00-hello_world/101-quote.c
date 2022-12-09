@@ -3,7 +3,7 @@
 /**
  * main - Enter point
  * Description: Print string without printf and puts
- * Return 1
+ * Return 1 means everything is okay
  */
 int main(void)
 {
