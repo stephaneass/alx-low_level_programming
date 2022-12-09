@@ -2,6 +2,7 @@
 
 /**
  * use puts fonction
+ * Return: return 0 if everything is okay
  */
 int main(void)
 {
