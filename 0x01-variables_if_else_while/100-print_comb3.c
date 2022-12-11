@@ -22,12 +22,12 @@ int main(void)
 			find = 0;
 			for (c = 0; c < sizeof(list); c++)
 			{
-				if (list[c] == strcat(i,j))
+				if (list[c] == strcat(i+'0',j+'0'))
 					find = 1;
 			}
 			if (find == 1)
 				continue;
-			list[i] = strcat(i,j);
+			list[i] = strcat(i+'0',j+'0');
 		}
 	}
 	for (c = 0; c < sizeof(list); c++)
