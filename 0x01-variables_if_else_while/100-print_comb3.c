@@ -17,7 +17,7 @@ int main(void)
 	{
 		for (j = 0; j <= 9; i++)
 		{
-			if(i == j)
+			if (i == j)
 				continue;
 			find = 0;
 			for (c = 0; c < sizeof(list); c++)
