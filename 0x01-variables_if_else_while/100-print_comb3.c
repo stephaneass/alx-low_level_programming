@@ -20,7 +20,7 @@ int main(void)
 			if(i == j)
 				continue;
 			find = 0;
-			for (c = 0; c < list.lenght; c++)
+			for (c = 0; c < sizeof(list); c++)
 			{
 				if (list[c] == strcat(i,j))
 					find = 1;
@@ -30,10 +30,10 @@ int main(void)
 			list[i] = strcat(i,j);
 		}
 	}
-	for (c = 0; c < list.lenght; c++)
+	for (c = 0; c < sizeof(list); c++)
 	{
 		putchar(list[c]);
-		if (c < list.lenght - 1)
+		if (c < sizeof(list) - 1)
 			continue;
 		putchar(',');
 		putchar(' ');
