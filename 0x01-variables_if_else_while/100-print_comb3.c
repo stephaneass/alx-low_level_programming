@@ -9,6 +9,7 @@ int main(void)
 {
 	int i;
 	int j;
+	int find;
 	int c;
 	int list[100];
 
@@ -18,7 +19,7 @@ int main(void)
 		{
 			if(i == j)
 				continue;
-			int find = 0;
+			find = 0;
 			for (c = 0; c < list.lenght; c++)
 			{
 				if (list[c] == strcat(i,j))
