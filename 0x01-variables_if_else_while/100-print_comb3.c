@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 /**
  * main - Enter point
  * Description: prints all possible combination
@@ -18,11 +18,11 @@ int main(void)
 		{
 			if(i == j)
 				continue;
-			bool find = false;
+			bool find = 0;
 			for (c = 0; c < list.lenght; c++)
 			{
 				if (list[c] == strcat(i,j))
-					find = true;
+					find = 1;
 			}
 			if (find)
 				continue;
