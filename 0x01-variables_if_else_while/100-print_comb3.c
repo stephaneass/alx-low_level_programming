@@ -32,6 +32,7 @@ int main(void)
 			count++;
 		}
 	}
+	putchar(count);
 	for (c = 0; c < count; c++)
 	{
 		putchar(list[c]);
