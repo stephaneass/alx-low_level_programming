@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	int j;
 	int find;
-	int c;
+	long unsigned int c;
 	int list[100];
 
 	for (i = 0; i <= 9; i++)
