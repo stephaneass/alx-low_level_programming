@@ -2,7 +2,7 @@
 
 /**
  * main - Enter point
- * Description: prints the alphABET,
+ * Descriiption: prints the alphABET
  * Return: 0 always (success)
  */
 int main(void)
