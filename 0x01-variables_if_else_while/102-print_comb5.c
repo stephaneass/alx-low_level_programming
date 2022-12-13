@@ -20,8 +20,7 @@ int main(void)
 			{
 				for (l = j; l <= 9; l++)
 				{
-					putchar((2 + '0') + (3 + '0'));
-					if (((i + '0') + (j + '0')) == ((k + '0') + (l + '0')))
+					if (i == k && j == l)
 						continue;
 					putchar(i + '0');
 					putchar(j + '0');
