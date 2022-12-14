@@ -7,11 +7,6 @@
  * Return: 0 always success
  */
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 int main(void)
 {
 	char l[8] = "_putchar";
