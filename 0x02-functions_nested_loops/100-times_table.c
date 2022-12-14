@@ -18,10 +18,10 @@ void print_times_table(int n)
 			_putchar(',');
 			for (j = 1; j <= n; j++)
 			{
+				_putchar(' ');
+				_putchar(' ');
 				if (i * j < 10)
 				{
-					_putchar(' ');
-					_putchar(' ');
 					_putchar(' ');
 					_putchar((i * j) + '0');
 					if (j < n)
@@ -29,8 +29,6 @@ void print_times_table(int n)
 				}
 				else
 				{
-					_putchar(' ');
-					_putchar(' ');
 					r = i * j;
 					if (r > 99)
 					{
