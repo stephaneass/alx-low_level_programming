@@ -20,7 +20,10 @@ void jack_bauer(void)
 				_putchar(i + '0');
 			}
 			else
-				printf("%d", i);
+			{
+				_putchar((i / 10) + '0');
+				_putchar((i % 10) + '0');
+			}
 			_putchar(':');
 			if (j < 10)
 			{
@@ -28,7 +31,10 @@ void jack_bauer(void)
 				_putchar(j + '0');
 			}
 			else
-				printf("%d", j);
+			{
+				_putchar((i / 10) + '0');
+				_putchar((i % 10) + '0');
+			}
 			_putchar('\n');
 		}
 	}
