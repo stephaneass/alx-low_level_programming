@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * jack_bauer -prints every minute of the day
@@ -20,7 +19,7 @@ void jack_bauer(void)
 				_putchar(i + '0');
 			}
 			else
-				printf("%d", i);
+				_putchar(i);
 			_putchar(':');
 			if (j < 10)
 			{
@@ -28,7 +27,7 @@ void jack_bauer(void)
 				_putchar(j + '0');
 			}
 			else
-				printf("%d", j);
+				_putchar(j);
 			_putchar('\n');
 		}
 	}
