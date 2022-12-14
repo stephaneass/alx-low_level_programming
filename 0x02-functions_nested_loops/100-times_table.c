@@ -32,11 +32,8 @@ void print_times_table(int n)
 					r = i * j;
 					if (r > 99)
 					{
-						while (r > 99)
-						{
-							_putchar((r / 100) + '0');
-							r = r % 100;
-						}
+						_putchar((r / 100) + '0');
+						r = r % 100;
 					}
 					_putchar((r / 10) + '0');
 					_putchar((r % 10) + '0');
