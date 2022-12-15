@@ -2,8 +2,9 @@
 
 /**
  * mut - multiplies two integers
- * @a: first param
- * @b: second param
+ * @a: first number
+ * @b: second number
+ *
  * Return: the result
  */
 
