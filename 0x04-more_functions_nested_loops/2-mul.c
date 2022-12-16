@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * mut - multiplies two integers
- * @a: The first number to multiply
- * @b: The second number to multiply with first number
+ * mut - Multiplies two integers
  *
- * Return: The result of multiplication between a and b
+ * @a: The first number
+ * @b: The second number
+ *
+ * Return: The result of multiplication
  */
 
 int mul(int a, int b)
 {
 	return (a * b);
 }
+
 
