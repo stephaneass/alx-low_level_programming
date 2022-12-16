@@ -2,10 +2,10 @@
 
 /**
  * mut - multiplies two integers
- * @a: first number
- * @b: second number
+ * @a: The first number to multiply
+ * @b: The second number to multiply with first number
  *
- * Return: the result of multiplication
+ * Return: The result of multiplication between x param and y param
  */
 
 int mul(int a, int b)
