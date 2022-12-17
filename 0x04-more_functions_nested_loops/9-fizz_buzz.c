@@ -3,7 +3,7 @@
 /**
  * main - Entry point prints the numbers from 1 to 100
  *
- * Return: always 0 for success
+ * Return: always 0 (Success)
  */
 int main(void)
 {
