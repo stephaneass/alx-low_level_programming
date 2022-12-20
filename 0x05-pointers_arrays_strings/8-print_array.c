@@ -4,7 +4,8 @@
 
 /**
  * print_array - prints half of a string
- * @str: param that points to
+ * @a: param that points to
+ * @n: number of item to print
  * Return: anything
  */
 
