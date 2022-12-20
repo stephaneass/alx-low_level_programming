@@ -2,7 +2,7 @@
 
 /**
  * _strcpy - copies the string pointed to by
- * @dest: buffer pointed 
+ * @dest: buffer pointed
  * @src: source string
  * Return: the pointer to dest
  */
@@ -11,5 +11,5 @@ char *_strcpy(char *dest, char *src)
 {
 	dest = src;
 
-	return dest;
+	return (dest);
 }
