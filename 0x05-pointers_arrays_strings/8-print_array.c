@@ -1,6 +1,5 @@
 #include "main.h"
-#include <string.h>
-#include <math.h>
+#include <stdio.h>
 
 /**
  * print_array - prints half of a string
@@ -15,7 +14,7 @@ void print_array(int *a, int n)
 
 	for (count = 0; count < n; count++)
 	{
-		_putchar(a[count]);
+		printf('%d', a[count]);
 	}
 	_putchar('\n');
 }
