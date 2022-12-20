@@ -18,8 +18,8 @@ void rev_string(char *s)
 		if (*(s + count) != '\0')
 		{
 			c = *(s + count);
-			*(s + count) = *(s + (lenght - 1));
-			*(s + (lenght - 1)) = c;
+			*(s + count) = *(s + (lenght - 1 - count));
+			*(s + (lenght - 1 - count)) = c;
 		}
 	}
 }
