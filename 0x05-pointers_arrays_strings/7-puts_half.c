@@ -12,9 +12,9 @@ void puts_half(char *str)
 {
 	int count;
 	int lenght = strlen(str);
+	int start = (lenght / 2) % 2 == 0 ? (lenght / 2) : (lenght / 2) + 1;
 
-	_putchar(lenght);
-	for (count = (int)(lenght / 2); count < lenght; count++)
+	for (count = start; count < lenght; count++)
 	{
 		if (*(str + count) != '\0')
 		{
