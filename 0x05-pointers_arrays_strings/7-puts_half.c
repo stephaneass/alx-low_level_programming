@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <math.h>
 
 /**
  * puts_half - prints half of a string
@@ -14,7 +15,7 @@ void puts_half(char *str)
 
 	_putchar((5 / 2) + '0');
 
-	for (count = lenght / 2; count < lenght; count++)
+	for (count = ceil(lenght / 2); count < lenght; count++)
 	{
 		if (*(str + count) != '\0')
 		{
