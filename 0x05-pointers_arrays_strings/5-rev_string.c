@@ -13,9 +13,8 @@ void rev_string(char *s)
 	int lenght = strlen(s);
 	char c;
 
-	for (count = 0; count < lenght; count++)
+	for (count = 0; count < lenght/2; count++)
 	{
-		c = '';
 		if (*(s + count) != '\0')
 		{
 			c = *(s + count);
