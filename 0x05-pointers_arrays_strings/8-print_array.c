@@ -12,8 +12,6 @@
 void print_array(int *a, int n)
 {
 	int count;
-	int lenght = strlen(str);
-	int start = (lenght % 2) == 0 ? (lenght / 2) : (lenght / 2) + 1;
 
 	for (count = 0; count < n; count++)
 	{
