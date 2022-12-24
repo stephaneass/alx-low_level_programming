@@ -2,7 +2,7 @@
 
 /**
  * leet - encodes a string into classsic 1337speak
- * @str: string to modify
+ * @stg: string to modify
  *
  * Return: modified string
  */
