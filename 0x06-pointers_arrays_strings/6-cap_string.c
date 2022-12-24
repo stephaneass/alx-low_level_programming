@@ -10,7 +10,9 @@
 
 char *cap_string(char *str)
 {
-	int i, j, b;
+	int i;
+	int j;
+	int b;
 	char *delim = " \t\n,;.!?\"(){}";
 
 	for (i = 0; i < strlen(str); i++)
