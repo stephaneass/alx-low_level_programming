@@ -9,7 +9,8 @@
 
 char *leet(char *stg)
 {
-	int i, j;
+	int i;
+	int j;
 	char *rem = "aAeEoOtTlL";
 	char *rep = "43071";
 
