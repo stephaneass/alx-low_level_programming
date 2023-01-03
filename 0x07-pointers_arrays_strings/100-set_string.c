@@ -9,6 +9,8 @@
  */
 void set_string(char **s, char *to)
 {
+	int i;
+
 	/*while (**s)*/
 	/*{*/
 
