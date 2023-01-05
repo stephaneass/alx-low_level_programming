@@ -5,6 +5,7 @@
  * palindrome - compare char
  * @s: the string to check
  * @i: iteration number
+ * @j: second iteration number
  *
  * Return: 0 or 1 if is prime number
  */
@@ -34,5 +35,5 @@ int is_palindrome(char *s)
 	if (l <= 1)
 		return (0);
 
-	return (palindrome(s, 0, l-1));
+	return (palindrome(s, 0, l - 1));
 }
