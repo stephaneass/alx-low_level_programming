@@ -29,7 +29,7 @@ int palindrome(char *s, int i, int j)
  */
 int is_palindrome(char *s)
 {
-	int len = strlen(s);
+	int l = strlen(s);
 
 	if (l <= 1)
 		return (0);
