@@ -19,7 +19,7 @@ int palindrome(char *s, int i, int j)
 		else
 			return (0);
 	}
-	return (palindrome(s, i - 1, j + 1));
+	return (palindrome(s, i + 1, j - 1));
 }
 
 /**
