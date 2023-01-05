@@ -15,13 +15,12 @@ int palindrome(char *s, int i, int j)
 	if (i < j)
 	{
 		if (s[i] == s[j])
-			return (palindrome(s, i, j));
+			return (palindrome(s, i + 1, j - 1));
 		else
 			return (0);
 	}
-	return (palindrome(s, i + 1, j - 1));
+	return (1);
 }
-
 /**
  * is_palindrome - check if is palindrome
  * @s: the string to check
