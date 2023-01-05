@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prime_number - check recursion prime number 
+ * prime_number - check recursion prime number
  * @n: the number to check
  * @i: iteration number
  *
