@@ -14,7 +14,7 @@ int search_sqrt(int n, int i)
 	else if (i * i > n)
 		return (-1);
 	else
-		return (search_sqrt(n, i));
+		return (search_sqrt(n, i + 1));
 }
 /**
  * _sqrt_recursion - the natural square root of a number
