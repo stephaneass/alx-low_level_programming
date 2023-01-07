@@ -3,7 +3,7 @@
 
 /**
  * main - Entery point
- * @argc: nomber of params
+ * @argc: number of params
  * @argv: params vertor
  *
  * Return: 0 or 1
