@@ -5,7 +5,7 @@
  * @argc: nomber of params
  * @argv: params vertor
  *
- * Return: 0 (success)
+ * Return: 0 or 1
  */
 int main(int argc, char *argv[])
 {
