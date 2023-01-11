@@ -18,17 +18,16 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	ar = malloc(sizeof(char) * len);
+	ar = malloc(sizeof(char) * (len + 1));
 
 	if (ar == NULL)
 	{
-		fprintf(stderr, "failed to allocate memory");
 		return (NULL);
 	}
 	for (i = 0; i < len; i++)
 	{
 		ar[i] = str[i];
 	}
-
+	ar[len] = '\0';
 	return (ar);
 }
