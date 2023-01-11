@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+
 /**
  * str_concat - returns a pointer to a newly allocated
  * @s1: the first string
@@ -16,7 +17,7 @@ char *str_concat(char *s1, char *s2)
 	unsigned int i;
 
 	len1 = strlen(s1);
-	len2 = strlen(s2)
+	len2 = strlen(s2);
 
 	if (s1 == NULL)
 		len1 = 0;
