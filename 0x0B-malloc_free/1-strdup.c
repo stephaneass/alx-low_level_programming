@@ -24,6 +24,7 @@ char *_strdup(char *str)
 	{
 		fprintf(stderr, "failed to allocate memory");
 		return (NULL);
+	}
 	for (i = 0; i < len; i++)
 	{
 		ar[i] = str[i];
