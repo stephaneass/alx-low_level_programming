@@ -24,7 +24,8 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		len2 = 0;
 
-	if
+	if (s1 == NULL && s2 == NULL)
+		return (NULL);
 
 	ar = malloc(sizeof(char) * (len1 + len2 + 1));
 
