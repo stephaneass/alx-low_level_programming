@@ -2,6 +2,23 @@
 #include <stdlib.h>
 
 /**
+ * ch_free_grid - Main Entry
+ * @grid: input
+ * @height: input
+ */
+void ch_free_grid(char **grid, unsigned int height)
+{
+	if (grid != NULL && height != 0)
+	{
+		for (i = 0; i < height; i++)
+		{
+			free(grid[i]);
+		}
+		free(grid);
+	}
+}
+
+/**
  * strtow - Main Entry
  * @str: the string
  *
@@ -42,7 +59,7 @@ char **strtow(char *str)
 				result[i] = malloc((c - h + 2) * sizeof(char));
 				if (result[i] == NULL)
 				{
-					free_grid(result, i);
+					ch_free_grid(result, i);
 					return (NULL);
 				}
 				break;
