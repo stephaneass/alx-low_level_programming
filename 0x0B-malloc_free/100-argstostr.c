@@ -10,8 +10,8 @@
  */
 char *argstostr(int ac, char **av)
 {
-	int i, count, *concat;
-	char str;
+	int i, count, *concat, index;
+	char *str;
 
 	if (ac <= 0 || av == NULL)
 		return (NULL);
