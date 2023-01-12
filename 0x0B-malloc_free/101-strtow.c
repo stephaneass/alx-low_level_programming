@@ -36,7 +36,7 @@ char **strtow(char *str)
 		for (c = h; str[c] != '\0'; c++)
 		{
 			if (str[c] == ' ')
-				a1++;
+				h++;
 			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
 				result[i] = malloc((c - h + 2) * sizeof(char));
@@ -48,7 +48,7 @@ char **strtow(char *str)
 				break;
 			}
 		}
-		for (j = 0; a1 <= c; a1++, j++)
+		for (j = 0; a1 <= c; h++, j++)
 			result[i][j] = str[h];
 		result[i][j] = '\0';
 	}
