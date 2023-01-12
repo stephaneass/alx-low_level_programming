@@ -20,20 +20,18 @@ char *argstostr(int ac, char **av)
 
 	for (i = 0; i < ac; i++)
 	{
-		str = *av[i];
-		while (str != '\0')
+		for (j = 0; av[i][j]; j++)
 			count++;
 	}
 
-	concat = malloc(sizeof(char) * count + ac);
+	concat = malloc(sizeof(char) * count + ac + 1);
 
 	index = 0;
 	for (i = 0; i  < ac; i++)
 	{
-		str = *av[i];
-		while (str != '\0')
+		for (j = 0; av[i][j]; j++)
 		{
-			concat[index++] = str++;
+			concat[index++] = av[i][j];
 		}
 		concat[index++] = '\n';
 	}
