@@ -20,7 +20,7 @@ char *argstostr(int ac, char **av)
 
 	for (i = 0; i < ac; i++)
 	{
-		str = av[i];
+		str = *av[i];
 		while (str != '\0')
 			count++;
 	}
@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 	index = 0;
 	for (i = 0; i  < ac; i++)
 	{
-		str = av[i];
+		str = *av[i];
 		while (str != '\0')
 		{
 			concat[index++] = str++;
