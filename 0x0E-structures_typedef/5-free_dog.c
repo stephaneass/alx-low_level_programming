@@ -3,7 +3,7 @@
 
 /**
  * free_dog - free memory
- * d: the instance to free
+ * @d: the instance to free
  *
  * Return: anything
  */
