@@ -6,6 +6,8 @@
  * Desc: function macro ABS(x)
  *
  * @x: the value to examinate
+ *
+ * Return: the absolute value of x
  */
 #define ABS(x) ((x) < 0 ? (-x) : (x))
 
