@@ -4,7 +4,6 @@
 /**
  * File: 3-function_like_macro.h
  * Desc: function macro ABS(x)
- *
  * @x: the value to examinate
  *
  * Return: the absolute value of x
