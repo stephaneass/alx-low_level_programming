@@ -5,7 +5,7 @@
 
 /**
  * sum_them_all - sum of all its parameters
- * @n: the first arg
+ * @n: the number of args
  *
  * Return: the sum result
  */
@@ -16,7 +16,7 @@ int sum_them_all(const unsigned int n, ...)
 	int sum;
 
 	if (n <= 0)
-		return 0;
+		return (0);
 	sum = 0;
 	va_start(list, n);
 	for (i = 0; i < n; i++)
