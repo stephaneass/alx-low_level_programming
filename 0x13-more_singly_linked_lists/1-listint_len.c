@@ -8,14 +8,14 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *temp = h;
-	size_t count;
+	const listint_t *data = h;
+	size_t nbr = 0;
 
-	while (temp != NULL)
+	while (data != NULL)
 	{
-		count++;
-		temp = temp->next;
+		nbr += 1;
+		data = data->next;
 	}
 
-	return (count);
+	return (nbr);
 }
