@@ -7,25 +7,26 @@
  *
  * Return: the address or NULL if it failed
  */
-stint_t *add_nodeint_end(listint_t **head, const int n)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *temp = (listint_t *)malloc(sizeof (listint_t));
+	listint_t *cursor = *head;
 
 	if (temp == NULL)
 		return (NULL);
 
-	while (*head != NULL)
+	temp->n = n;
+	temp->next = NULL;
+
+	if (cursor != NULL)
 	{
-		if (*head->next != NULL)
-		{
-			*head = *head->next;
-		}
-		else
-		{
-			*head->next = temp;
-			break;
-		}
+		while (cursor->next != NULL)
+			cursor = cursor->next;
+		
+		cursor->next = temp;
 	}
+	else
+		*head = temp;
 
 	return (temp);
 }
