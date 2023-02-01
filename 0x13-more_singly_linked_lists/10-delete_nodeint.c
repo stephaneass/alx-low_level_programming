@@ -15,20 +15,20 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	if (copy == NULL)
 		return (-1);
 
-	if (idx == 0)
+	if (index == 0)
 	{
-		*head = *head->next;
-		free(copy)
+		*head = copy->next;
+		free(copy);
 		return (1);
 	}
 
-	while (count < idx && copy != NULL)
+	while (count < index && copy != NULL)
 	{
 		copy = copy->next;
 		count += 1;
 	}
 
-	if (count < idx)
+	if (count < index)
 		return (-1);
 	else
 	{
