@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_bit - enter
+ * clear_bit - enter
  * @n: the first number
  * @index: the second number
  * 
