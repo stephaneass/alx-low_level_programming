@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts binary to unsigned int
- * @b: the pointer to the string to comvert
+ * print_binary - converts binary to unsigned int
+ * @n: the number
  *
- * Return: the converted number, or 0
+ * Return: anything
  */
 void print_binary(unsigned long int n)
 {
