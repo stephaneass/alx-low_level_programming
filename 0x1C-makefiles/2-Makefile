@@ -5,7 +5,7 @@ SRC = main.c school.c
 OBJ = $(SRC:%.c=%.o)
 NAME = school
 
-%.o %.c m.h
+%.o: %.c m.h
 	#put the output to the left
 	$(CC) -c -o $@ $<
 
